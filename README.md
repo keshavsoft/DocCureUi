@@ -9,3 +9,7 @@ Here we are trying to change the static html for general addressing to any docto
 ### 1.1.1
 
 - still working on ui, and local storage
+
+### 1.1.2
+
+- LoadAnchorId, V5 add listeners started
