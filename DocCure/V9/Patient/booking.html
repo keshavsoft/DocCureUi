@@ -453,7 +453,11 @@
 	<script src="../assets/js/script.js"></script>
 
 	<script src="./Js/booking/entryFile.js" type="module">
-		
+		const params = new URLSearchParams(window.location.search);
+		const doctorId = params.get("id");
+
+		const doctors = JSON.parse(localStorage.getItem("doctors")) || [];
+		const selectedDoctor = doctors.find(doc => doc.id == doctorId);
 	</script>
 	
 

@@ -33,7 +33,10 @@ const days = 7;
         // Get doctor id from URL
 		const params = new URLSearchParams(window.location.search);
 		const doctorId = params.get("id");
-
+		const checkoutBtn = document.querySelector(".submit-btn");
+		if (doctorId) {
+			checkoutBtn.href = `checkout.html?id=${doctorId}`;
+		}
 		// Get doctors from localStorage
 		const doctors = JSON.parse(localStorage.getItem("doctors")) || [];
 
