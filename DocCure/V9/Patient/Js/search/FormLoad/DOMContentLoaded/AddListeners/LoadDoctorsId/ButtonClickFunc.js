@@ -16,6 +16,7 @@ let StartFunc = () => {
 			clone.querySelector(".doctor-speciality").textContent = doc.speciality;
 			clone.querySelector(".doctor-location").append(doc.location);
 			clone.querySelector(".doctor-rating").textContent = doc.rating;
+			clone.querySelector(".img-fluid1").src = doc.img2;
 
 			const bookBtn = clone.querySelector(".BookAppointmentClass");
 			bookBtn.href = `booking.html?id=${doc.id}`;
