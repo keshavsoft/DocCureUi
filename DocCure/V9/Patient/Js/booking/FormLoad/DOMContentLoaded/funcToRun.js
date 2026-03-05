@@ -48,6 +48,9 @@ const days = 7;
 			document.querySelector(".booking-doctor-rating").textContent = selectedDoctor.rating;
 			document.querySelector(".booking-doctor-location").textContent = selectedDoctor.location;
 			document.querySelector(".booking-doctor-img").src = selectedDoctor.img;
+			document.querySelector(".img-fluid1").src = selectedDoctor.img2;
+			document.querySelector(".doctor-speciality").textContent = selectedDoctor.speciality;
+			document.querySelector(".doctor-degree").textContent = selectedDoctor.degree;
 		}
 };
 
