@@ -270,7 +270,7 @@
 
 						<!-- Doctor Widget -->
 						<div id="doctorContainer"></div>
-						
+
 					</div>
 				</div>
 
@@ -293,14 +293,21 @@
 							</div>
 
 							<div class="doc-info-cont">
-								<h4 class="doc-name doctor-name"></h4>
+								<h4 class="doc-name">
+									<span>{</span>
+									<span class="doctor-name"></span>
+									<span>}</span>
+								</h4>
 
-								<p class="doc-speciality doctor-degree"></p>
+								<p class="doc-speciality">
+									<span>{</span>
+									<span class="doctor-degree"></span>
+									<span>}</span>
+								</p>
 
 								<p class="doc-department">
-									<img src="" class="img-fluid1 dept-img"
-										width="16">
-									<span class="doctor-speciality"></span>
+									<img src="" class="img-fluid1 dept-img" width="16">
+									{<span class="doctor-speciality"></span>}
 								</p>
 
 								<div class="rating">
@@ -309,12 +316,19 @@
 									<i class="fas fa-star filled"></i>
 									<i class="fas fa-star filled"></i>
 									<i class="fas fa-star"></i>
-									<span class="d-inline-block average-rating doctor-rating"></span>
+									<span class="d-inline-block average-rating">
+										<span>{</span>
+										<span class="doctor-rating"></span>
+										<span>}</span>
+									</span>
 								</div>
 
 								<div class="clinic-details">
-									<p class="doc-location doctor-location">
+									<p class="doc-location">
 										<i class="fas fa-map-marker-alt"></i>
+										<span>{</span>
+										<span class="doctor-location"></span>
+										<span>}</span>
 									</p>
 								</div>
 							</div>

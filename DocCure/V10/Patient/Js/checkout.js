@@ -19,6 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector(".img-fluid1").src = selectedDoctor.img2;
 	document.querySelector(".doctor-speciality").textContent = selectedDoctor.speciality;
 	document.querySelector(".doctor-degree").textContent = selectedDoctor.degree;
-    document.querySelector(".doc-location").innerHTML =
-        `<i class="fas fa-map-marker-alt"></i> ${selectedDoctor.location}`;
+    document.querySelector(".booking-doctor-location").innerHTML =
+        ` ${selectedDoctor.location}`;
 });
