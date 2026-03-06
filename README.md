@@ -1,54 +1,139 @@
-# DocCureV1
 
-# 🩺 **DocCure – Doctor Management System UI**
+# 🩺 DocCure – Doctor Management System UI
 
-A simple web-based user interface for a Doctor Management System built using HTML, CSS, JavaScript, and Bootstrap.
+DocCure is a **web-based user interface for a Doctor Management System** built using **HTML, CSS, JavaScript, and Bootstrap**.
+
+The project demonstrates the **complete patient-side workflow**, allowing users to:
+
+* Search for doctors
+* View doctor information
+* Book an appointment
+* Complete checkout
+
+This project focuses on **frontend implementation and UI workflow simulation** without requiring a backend server.
 
 ---
 
-## 🧩 Versions
+# 🚀 Features
+
+* Doctor search interface
+* Dynamic doctor information rendering
+* Appointment booking flow
+* Checkout confirmation page
+* Modular JavaScript structure
+* Clean UI built with Bootstrap
+
+---
+
+# 🧩 Project Versions
 
 ### 🔹 V1
-- Basic UI layout  
-- Doctor list page  
+
+* Initial project setup
+* Basic UI layout
+* Doctor listing page
 
 ### 🔹 V2
-- Improved design  
-- Separate pages  
+
+* Improved UI design
+* Better page structure
+* Layout refinements
 
 ### 🔹 V3
-- Dynamic doctor display  
-- Booking page  
+
+* Dynamic doctor data rendering using JavaScript
+* Initial booking page implementation
 
 ### 🔹 V4
-- Doctor-wise details  
-- Time slot UI  
+
+* Detailed doctor information display
+* Time slot selection UI
 
 ### 🔹 V5
-- Complete UI flow  
-- Ready for backend  
+
+* Completed UI flow for booking
+* Prepared for backend integration
+
+⚠ Note
+Booking module should be **modularized for better maintainability**.
+
+---
 
 ### 🔹 V9
-- Patients Search Doctor perfect with doctors loaded
+
+* Patient **Search Doctor page fully functional**
+* Doctors loaded dynamically
+* Improved doctor card UI
 
 ---
 
-## 📄 Pages
-- `index.html` – Home  
-- `doctors.html` – Doctors  
-- `booking.html` – Booking  
+### 🔹 V10
+
+Latest enhancements and fixes.
+
+#### Changes
+
+* Fixed doctor information rendering across pages
+* Doctor **degree, speciality, rating, and location** now load correctly
+* Booking page doctor details corrected
+* Checkout page doctor details corrected
+* Doctor image loading fixed
+* Improved DOM data mapping
+---
+
+# 📄 Pages
+
+| Page                    | Description                                |
+| ----------------------- | ------------------------------------------ |
+| `index.html`            | Home page of the application               |
+| `Patient/search.html`   | Search and browse doctors                  |
+| `Patient/booking.html`  | Book an appointment with a selected doctor |
+| `Patient/checkout.html` | Confirm booking and complete checkout      |
 
 ---
 
-## 🛠 Tech Stack
-HTML, CSS, JavaScript, Bootstrap
+# 🛠 Tech Stack
+
+* **HTML5**
+* **CSS3**
+* **JavaScript (Vanilla JS)**
+* **Bootstrap**
+* **LocalStorage** (used for mock data)
 
 ---
 
-## ▶ Run
-Open `index.html` in browser.
+# ▶ Running the Project
+
+No backend server is required.
+
+Simply open the main page in your browser:
+
+```
+index.html
+```
+
+---
+
+# 📁 Project Structure
+
+```
+DocCure
+│
+├── V10
+│   │
+│   ├── assets
+│   │
+│   ├── Patient
+│   │   ├── Js
+│   │   ├── booking.html
+│   │   ├── checkout.html
+│   │   └── search.html
+│   │
+│   └── index.html
+```
+
+---
 
 
-- 1.1.1
+* **Hujur** – V10 enhancements and bug fixes
 
-V5 booking need to be modular
